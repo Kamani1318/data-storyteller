@@ -19,6 +19,7 @@ With the technology advancements, the organisation today has the pre-eminence of
 
 Data Storyteller is an AI based tool that can take a data set, identify patterns in the data, can interpret the result, and can then produce an output story that is understandable to a business user based on the context. It is able to pro-actively analyse data on behalf of users and generate smart feeds using natural language generation techniques which can then be consumed easily by business users with very less efforts. The application has been built keeping in mind a rather elementary user and is hence, easily usable and understandable. This also uses a **multipage implementation** of Streamlit Library using Class based pages. 
 
+## Note: This is not the original repo but a different version that I have created. This repo was created for educational purposes only and no plagarism was intended. 
 ## Features 
 
 Given data/analytics output, the tool can:-
@@ -112,11 +113,6 @@ $ streamlit run app.py
 
 ## References 
 
-[1] SAP Hackathon: https://sap-code.hackerearth.com/challenges/hackathon/sap-code/custom-tab/data-4-storytelling/#Data%204%20Storytelling (used for the `README.md` introduction)
-
-[2] Gartner: https://www.gartner.com/en/documents/3982132
-
-[3] Soumyajit Behera: https://github.com/soumyajit4419/MedHub_360
 
 
 ## Contact
