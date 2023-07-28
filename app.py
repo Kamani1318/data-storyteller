@@ -11,7 +11,7 @@ from pages import data_upload, machine_learning, metadata, data_visualize, redun
 app = MultiPage()
 
 # Title of the main page
-display = Image.open('/Users/aryankamani/Data-Analysis-Tool/Machine Learning in Healthcare.png')
+display = Image.open('/Users/aryankamani/Projects/data-storyteller/Machine Learning in Healthcare.png')
 display = np.array(display)
 col1, col2 = st.columns(2)
 col1.image(display, width = 250)
