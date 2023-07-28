@@ -24,10 +24,11 @@ Data Storyteller is an AI based tool that can take a data set, identify patterns
 
 Given data/analytics output, the tool can:-
 
-- turn the data into interactive data stories based on the given data 
-- generate deep insights, infer pattern and help in business decisions.
-- provide personalization profiles; these could be represented as meta data describing what would be of interest to a given user.
-- generate reports understandable to a business user with interactive and intuitive interface.
+- extract numerical and categorical columns of a given dataset. 
+- convert wrongly classified categorical data to numeric.
+- provide data vasualisation with 10 options of choosing the chart type.
+- regression classification and clustering options to user to choose from and apply on the dataset.
+- preprocessign option that automatically converts data into numeric format.
 
 ## 📝 Module-Wise Description
 
@@ -52,9 +53,10 @@ The correction happens immediately and is saved at that moment.
 
 _📌 **Machine Learning**_ <br/>
 
-This section automates the process of machine learning by giving the user the option to select X and y variables and letting us do everything else. The user can specify which columns they need for machine learning and then select the type of process - regression and classficiation. The application selects multiple models and saves the best one as a binary `.sav` file to be used in the future for inferencing. The accuracy or R2 score is shown right then and there with the model running in the background.  
+This section automates the process of machine learning by giving the user the option to select X and y variables and letting us do everything else. The user can specify which columns they need for machine learning and then select the type of process - regression, classficiation and clustering. The application selects multiple models and saves the best one as a binary `.sav` file to be used in the future for inferencing. 10 different models are available to use for regression and classification and K means is available for Clustering currently. On choosing 1 or more models the respective metrics will appear in a tabular format. 
 
 _📌 **Data Visualization**_ <br/>
+This section automates teh data visualisation process of data analysis. The user has an optiont to choose any two data columns that are present in the dataset alogn with the chart type. One choosing these three,, the graph will be displayed.
 
 _📌 **Y-Parameter Optimization**_ <br/>
 
@@ -88,10 +90,6 @@ $ streamlit run app.py
 
 ## Other Content
 
-**[Video Walkthrough](https://drive.google.com/file/d/1C-WMgJ6tLfVMAz4mS-OQF9-9-0GhgSWJ/view?usp=sharing)**
-
-**[Presentation](https://drive.google.com/file/d/1vlmXN_wNQdf6Y_hpVKV2QD1ub80izIiK/view?usp=sharing)**
-
 ## 🤝 How to Contribute? [3]
 
 - Take a look at the Existing Issues or create your own Issues!
@@ -101,7 +99,7 @@ $ streamlit run app.py
 - Add Screenshots to help us know what this Script is all about.
 
 
-# 👨‍💻 Contributors ✨
+# 👨‍💻 Original Contributors ✨
 
 <table>
   <tr>
@@ -110,6 +108,7 @@ $ streamlit run app.py
     <td align="center"><a href="https://github.com/salilsaxena"><img src="https://avatars.githubusercontent.com/u/54006908?v=4" width="100px;" alt=""/><br /><sub><b>Salil Sxena</b></sub></a><br /></td> 
   </tr>
 </table>
+
 
 ## References 
 
